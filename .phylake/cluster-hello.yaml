@@ -1,0 +1,36 @@
+apiVersion: phylake.io/v1alpha1
+kind: Cluster
+metadata:
+    name: my-cluster
+spec:
+    tenant: tenant
+    contact:
+        email: ""
+        slack: ""
+        phone: ""
+        name: ""
+    configuration:
+        description: description
+        geographicLocation: location
+        costCenter: ""
+        production: false
+        securityLevel: ""
+        disablePRFeedback: false
+    policies:
+        repository:
+            url:
+                scheme: ""
+                opaque: ""
+                user: null
+                host: ""
+                path: ""
+                rawpath: ""
+                forcequery: false
+                rawquery: ""
+                fragment: ""
+                rawfragment: ""
+            organization: ""
+            repository: ""
+        revision: ""
+        path: /policies
+    argocdURL: ""
